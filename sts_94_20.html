@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bijak Digital</title>
+    <link rel="stylesheet" href="sts_94_20.css">
+</head>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAYOUT HTML dan CSS</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1>WELCOME!</h1>
+        </div>
+        <div class="topnav">
+            <a href="index.html">Biodata</a>
+            <a href="table.html">Table</a>
+            <a href="list.html">List</a>
+            <a href="sts_94_20.html">STS</a>
+        </div>
+
+<body>
+<div class="background-terbang">
+    <img src="bintang.png" class="gambar-jatuh g1" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g2" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g3" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g4" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g5" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g6" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g7" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g8" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g9" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g10" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g11" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g12" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g13" alt="hiasan">
+    <img src="bunga.png" class="gambar-jatuh g14" alt="hiasan">
+    <img src="bintang.png" class="gambar-jatuh g15" alt="hiasan">
+</div>
+
+<div class="header-badge-container">
+    <div class="header-badge">
+        <h1 class="typing-text">Scroll Smart, Share Wisely</h1>
+        <img src="pensil.png" class="dekorasi-badge" alt="dekorasi">
+    </div>
+</div>
+
+<div class="spot-fake">
+    <img class="hiasan-kiri" src="confetti.png" alt="confetti">
+    <img class="hiasan-kanan" src="bingung.png" alt="bingung">
+    <h2>Spot the Fake!</h2>
+    <p>Menurut kamu, apakah postingan ini aman atau mencurigakan?</p>
+
+    <div class="fake-post">
+        <h3>SELAMAT!</h3>
+        <p>Kamu memenangkan iPhone GRATIS!</p>
+        <p>Klik link di bawah ini untuk mengambil hadiahmu sekarang!</p>
+        <p class="fake-link"> claim-your-prize.com</p>
+    </div>
+
+    <div class="pilihan">
+        <button onclick="jawaban('real')"> REAL</button>
+        <button onclick="jawaban('suspicious')"> SUSPICIOUS</button>
+    </div>
+
+    <div id="hasil"></div>
+</div>
+
+<script>
+    function jawaban(pilihan) {
+        let hasil = document.getElementById("hasil");
+
+        hasil.classList.remove("animasi-hasil");
+
+        if (pilihan === "suspicious") {
+            hasil.innerHTML = "BENAR! Postingan ini mencurigakan. Jangan langsung klik link atau memberikan informasi pribadi.";
+            hasil.style.color = "green";
+            hasil.style.backgroundColor = "#dff0c2";
+        } else {
+            hasil.innerHTML = "Belum tepat! Perhatikan tanda-tanda mencurigakan seperti hadiah gratis dan link yang tidak jelas. Baca website berikut ini untuk mengetahui kenapa!";
+            hasil.style.color = "red";
+            hasil.style.backgroundColor = "#ffd6e5";
+        }
+
+        void hasil.offsetWidth;
+
+        hasil.classList.add("animasi-hasil");
+    }
+</script>
+
+
+    <div class="info_1">
+
+        <div class="content_1">
+        <div class="foto_banyak"> 
+            <div class="foto_1">
+                <img src="handphone.jpg" alt="Handphone" class="bottom">
+                <img src="laptop.jpg" alt="Laptop" class="top">
+            </div>
+            <div class="foto_2">
+                <img src="kid computer gif.gif" alt="Gif Anak Menggunakan Komputer">
+            </div>
+            <div class="foto_3">
+                <img src="cewe tangan banyak.jpg" alt="Cewe Tangan Banyak Memegang Handphone" class="top">
+                <img src="aplikasi.jpg" alt="Aplikasi" class="bottom">
+            </div>
+            <div class="foto_4">
+                <img src="like notif.jpg" alt="Like Notif" class="top">
+                <img src="tangan pegang hp banyak.jpg" alt="Tangan Pegang HP Banyak" class="bottom">
+            </div>
+            </div>
+
+            <div class="isi_1">
+                <p> Media sosial merupakan bagian dari kehidupan sehari-hari yang digunakan untuk berkomunikasi, mencari informasi, belajar, dan berbagi berbagai hal. Dengan media sosial, kita dapat terhubung dengan orang lain tanpa terbatas oleh jarak dan waktu. Kehadiran teknologi ini memberikan kita kemudahan luar biasa dalam mengakses pengetahuan baru serta menjalin silaturahmi dengan teman maupun keluarga di mana saja. Namun, media sosial juga harus digunakan dengan baik dan bertanggung jawab agar tidak menimbulkan dampak negatif. Menggunakan media sosial dengan benar berarti mampu menjaga sikap, perkataan, dan tindakan saat berada di dunia digital. Kita perlu memeriksa kebenaran informasi sebelum membagikannya, menghargai orang lain, menjaga privasi, serta berhati-hati dalam berinteraksi dengan pengguna lain. Selain itu, penggunaan media sosial juga perlu dilakukan secara seimbang agar tidak mengganggu kegiatan belajar, istirahat, maupun kehidupan sehari-hari. Dengan membiasakan diri bersikap bijak sejak dini, kita dapat menciptakan lingkungan internet yang jauh lebih aman, positif, dan memberikan manfaat nyata bagi diri sendiri maupun orang lain
+                </p>
+            </div>
+        </div>
+        </div> 
+
+<div class="container-judul-dos">
+    <div class="kotak-judul-dos">
+        <h2 class="judul-wavy">Do's and Don'ts Bermedia Sosial</h2>
+    </div>
+</div>
+
+     <h2 class="judul-dos">DO'S</h2>
+
+     <div class="dos">
+
+    <div class="polaroid periksa info">
+        <img src="periksa info.jpg" alt="Periksa Info">
+        <div class="Periksa informasi sebelum membagikannya">
+        <h3 class="judul-poin-do">Periksa Informasi Sebelum Membagikannya</h3>
+            <p>Pastikan informasi berasal dari sumber yang terpercaya agar tidak ikut menyebarkan berita palsu.</p>
+        </div>
+    </div>
+
+    <div class="polaroid bahasa sopan">
+        <img src="bahasa sopan.png" alt="Bahasa Sopan">
+        <div class="Gunakan Bahasa yang Sopan">
+        <h3 class="judul-poin-do">Gunakan Bahasa yang Sopan</h3>
+            <p>Tetap menghargai orang lain saat berkomentar, mengirim pesan, maupun membuat unggahan.</p>
+        </div>
+    </div>
+
+     <div class="polaroid jaga privasi">
+        <img src="jaga privasi.png" alt="Jaga Privasi">
+        <div class="Jaga Privasi Diri Pribadi">
+        <h3 class="judul-poin-do">Jaga Privasi Diri Pribadi</h3>
+            <p>Hindari memberikan informasi pribadi seperti alamat rumah, nomor telepon, atau data pribadi lainnya.</p>
+        </div>
+    </div>
+
+    <div class="polaroid hal positif">
+        <img src="google.jpg" alt="Google">
+        <div class="Gunakan media sosial untuk hal positif">
+        <h3 class="judul-poin-do">Gunakan Media Sosial untuk Hal Positif</h3>
+            <p>Manfaatkan media sosial untuk belajar, mencari informasi, berkomunikasi, dan menunjukkan karya atau kreativitas.</p>
+        </div>
+    </div>
+
+    <div class="polaroid berpikir">
+        <img src="berpikir.png" alt="Berpikir sebelum Mengunggah">
+            <div class="Berpikir sebelum mengunggah"></div>
+            <h3 class="judul-poin-do">Berpikir sebelum Mengunggah </h3>
+            <p>Pertimbangkan dampak dari sesuatu yang akan diunggah karena apa yang sudah dibagikan di internet dapat sulit untuk dihapus sepenuhnya.</p>
+        </div>
+    </div>
+
+<h2 class="judul-donts">DON'TS</h2>
+
+<div class="donts">
+
+    <div class="polaroid hoax">
+        <img src="hoax.jpg" alt="Menyebarkan Berita Hoaks">
+        <div class="Menyebarkan Berita Hoaks">
+        <h3 class="judul-poin-donts">Menyebarkan Berita Hoaks</h3>
+            <p>Jangan langsung percaya atau membagikan informasi hanya karena terlihat menarik atau sedang viral.</p>
+        </div>
+    </div>
+
+    <div class="polaroid cyberbullying">
+        <img src="cyberbullying.jpg" alt="Melakukan Cyberbullying">
+        <div class="Melakukan Cyberbullying">
+        <h3 class="judul-poin-donts">Melakukan Cyberbullying</h3>
+            <p>Hindari mengejek, menghina, mempermalukan, atau menyebarkan sesuatu yang dapat menyakiti orang lain.</p>
+        </div>
+    </div>
+
+    <div class="polaroid jaga privasi">
+        <img src="bagi data pribadi.png" alt="Membagikan Data Pribadi Sembarangan">
+        <div class="Membagikan Data Pribadi Sembarangan">
+        <h3 class="judul-poin-donts">Membagikan Data Pribadi Sembarangan</h3>
+            <p>Informasi pribadi dapat disalahgunakan jika dibagikan kepada orang yang tidak dikenal.</p>
+        </div>
+    </div>
+
+    <div class="polaroid berlebihan">
+        <img src="screentime.jpg" alt="Menggunakan Media Sosial secara Berlebihan">
+        <div class="Menggunakan Media Sosial Secara Berlebihan">
+        <h3 class="judul-poin-donts">Menggunakan Media Sosial Secara Berlebihan</h3>
+            <p>Terlalu banyak menggunakan media sosial dapat mengganggu waktu belajar, istirahat, dan aktivitas sehari-hari.</p>
+        </div>
+    </div>
+
+    <div class="polaroid mudah percaya">
+        <img src="percaya orang asing.png" alt="Mudah Percaya kepada Orang Asing di Internet">
+        <div class="Mudah Percaya kepada Orang Asing di Internet">
+        <h3 class="judul-poin-donts">Mudah Percaya kepada Orang Asing di Internet</h3>
+            <p>Tidak semua orang di media sosial memiliki niat baik atau memberikan informasi yang benar. Tetap berhati-hati saat berinteraksi dengan orang yang tidak dikenal.</p>
+        </div>
+    </div>
+
+</div>
+
+<div class="checklist">
+    <h2>Sudahkah Kamu Bijak Bermedia Sosial?</h2>
+    <p>Centang hal-hal yang sudah kamu lakukan!</p>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya memeriksa informasi sebelum membagikannya
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya menggunakan bahasa yang sopan di media sosial
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya menjaga informasi pribadi saya
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya berpikir sebelum mengunggah sesuatu
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya tidak ikut menyebarkan berita hoaks
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya menghargai pendapat orang lain
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya mengatur waktu menggunakan media sosial
+    </label>
+
+    <label>
+        <input type="checkbox" class="check">
+        Saya berhati-hati saat berinteraksi dengan orang asing di internet
+    </label>
+
+    <p class="progress">0/8 done</p>
+</div>
+
+<script>
+    const checks = document.querySelectorAll(".check");
+    const progress = document.querySelector(".progress");
+
+    checks.forEach(function(check) {
+        check.addEventListener("change", function() {
+            let jumlah = document.querySelectorAll(".check:checked").length;
+            progress.textContent = jumlah + "/8 done";
+        });
+    });
+</script>
+
+<div class="kotak-kesimpulan">
+    <img src="hiasan 3.png" alt="Hiasan" class="hiasan-kesimpulan">
+    <h2>Kesimpulan Bijak Bermedia Sosial</h2>
+    <p> Media sosial adalah ruang digital yang sangat luas dan penuh dengan peluang. Jika dimanfaatkan dengan baik, platform ini dapat menjadi sarana yang luar biasa untuk belajar hal-hal baru, mengasah kreativitas, membangun relasi positif, serta mengekspresikan diri secara sehat. Namun, kebebasan di dunia digital selalu beriringan dengan tanggung jawab. Setiap kata, tanggapan, dan konten yang kita bagikan akan meninggalkan jejak digital yang permanen. Oleh karena itu, selalu utamakan sikap kritis, jaga privasi, dan terapkan rasa empati sebelum berinteraksi. Mari bersama-sama menciptakan ruang internet yang aman, sehat, dan menyenangkan bagi siapa saja</p>
+</div>
+
+<audio id="bg-music" loop>
+    <source src="lagu.mp3" type="audio/mpeg">
+</audio>
+<button id="music-btn" onclick="toggleMusic()">🎵 Play Music</button>
+<script>
+    const music = document.getElementById("bg-music");
+    const btn = document.getElementById("music-btn");
+
+    function toggleMusic() {
+        if (music.paused) {
+            music.play();
+            btn.innerHTML = "🔊 Pause Music";
+        } else {
+            music.pause();
+            btn.innerHTML = "🎵 Play Music";
+        }
+    }
+</script>
+
+</body>
